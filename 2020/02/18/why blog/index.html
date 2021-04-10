@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.2.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/logo.jpg">
+  <link rel="icon" type="image/png" sizes="16x16" href="/aseets/logo.jpg">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"yoursite.com","root":"/","scheme":"Mist","version":"7.7.2","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12,"onmobile":true},"copycode":{"enable":true,"show_result":true,"style":"default"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="本文从Codesheep的视频整理而成，仅记录笔记">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Why blog">
+<meta property="og:url" content="http://yoursite.com/2020/02/18/why%20blog/index.html">
+<meta property="og:site_name" content="特产型葱酱的小窝">
+<meta property="og:description" content="本文从Codesheep的视频整理而成，仅记录笔记">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2020-02-18T04:57:30.000Z">
+<meta property="article:modified_time" content="2021-04-10T13:42:42.352Z">
+<meta property="article:author" content="特产型葱酱">
+<meta property="article:tag" content="hexo">
+<meta property="article:tag" content="notes">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://yoursite.com/2020/02/18/why%20blog/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true
+  };
+</script>
+
+  <title>Why blog | 特产型葱酱的小窝</title>
+  
+
+
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?5d83738bf743e545ba76c9b2e5677fdf";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <div>
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">特产型葱酱的小窝</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-fw fa-user"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>归档</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+
+</nav>
+  <div class="site-search">
+    <div class="popup search-popup">
+    <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocorrect="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result"></div>
+
+</div>
+<div class="search-pop-overlay"></div>
+
+  </div>
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content">
+            
+
+  <div class="posts-expand">
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/02/18/why%20blog/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/assets/head.jpg">
+      <meta itemprop="name" content="特产型葱酱">
+      <meta itemprop="description" content="记录生活">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="特产型葱酱的小窝">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Why blog
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-02-18 12:57:30" itemprop="dateCreated datePublished" datetime="2020-02-18T12:57:30+08:00">2020-02-18</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-04-10 21:42:42" itemprop="dateModified" datetime="2021-04-10T21:42:42+08:00">2021-04-10</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Tech/" itemprop="url" rel="index"><span itemprop="name">Tech</span></a>
+                </span>
+            </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="fa fa-comment-o"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2020/02/18/why%20blog/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2020/02/18/why%20blog/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-file-word-o"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>1.2k</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>本文从<a href="https://codesheep.cn" target="_blank" rel="noopener">Codesheep</a>的视频整理而成，仅记录笔记</p>
+<a id="more"></a>
+
+<h1 id="为什么写博客"><a href="#为什么写博客" class="headerlink" title="为什么写博客"></a>为什么写博客</h1><ul>
+<li><p>学了就忘？让自己学过的知识留下印记。<br>大部分时候，我们的大脑是用来思考的，而需要储存的东西太多了，于是我不得不选择其他渠道，储存自己的知识，写博客就是渠道之一，通过写博客，记录自己的学习轨迹，强化记忆，让知识转化为自己的，而不是看了，学了，就忘了，还能培养自己的总结能力</p>
+</li>
+<li><p>个人博客是面试的绝对加分项，技术简历写上个人博客地址，态度加分</p>
+</li>
+<li><p>系统地整合自己一个阶段的学习成果</p>
+</li>
+<li><p>加深对技术点的理解<br>写博客的过程即是对知识的复现</p>
+</li>
+<li><p>构建自己的知识体系<br>这一点可能写一篇两篇看不出来，但是当你常年累月坚持写，它们就会组成属于自己的知识清单，自己学了什么，会什么，都罗列在上面，忘了还可以方便查阅</p>
+</li>
+<li><p>备忘录&amp;踩坑记录<br>记录学习的历程，防止再度踩坑</p>
+</li>
+<li><p>获得阅读量，得到认可，提高知名度</p>
+</li>
+<li><p>结交志同道合的朋友<br>通过技术博客，可以结交到一些志同道合的小伙伴，交流技术，说不准还能面基（滑稽）</p>
+</li>
+<li><p>提高自己的写作水平</p>
+</li>
+</ul>
+<h1 id="写什么？"><a href="#写什么？" class="headerlink" title="写什么？"></a>写什么？</h1><h2 id="等级"><a href="#等级" class="headerlink" title="等级"></a>等级</h2><h3 id="入门级"><a href="#入门级" class="headerlink" title="入门级"></a>入门级</h3><p>备忘录，学习笔记，对知识点的基础理解，技术实现的踩坑记录</p>
+<h3 id="实战类"><a href="#实战类" class="headerlink" title="实战类"></a>实战类</h3><p>环境搭建，技术操作记录，总结清楚，为自己和他人提供参考</p>
+<h3 id="大牛级"><a href="#大牛级" class="headerlink" title="大牛级"></a>大牛级</h3><p>坚持一两年自己技术成熟后，模式提炼，源码分析，造轮子，工具类，开源项目等</p>
+<h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><ul>
+<li>输入&amp;输出</li>
+<li>笔记，心得，源码demo，整理成技术博客</li>
+<li>主要关注内容，不要写一些乱七八糟的东西，技术博客以记录，分享技术为主</li>
+<li>坚持一直写，一开始很难，坚持下去就容易了</li>
+<li>对自己的博客保持敬畏之心，尊重和保护知识产权，引用要标明出处</li>
+<li>可复现，能为读者提供解决实际问题的方法思路</li>
+</ul>
+<h1 id="如何写？"><a href="#如何写？" class="headerlink" title="如何写？"></a>如何写？</h1><ul>
+<li>文本格式：markdown</li>
+<li>工具：Typora</li>
+</ul>
+<h1 id="初学者写博客的常见误区"><a href="#初学者写博客的常见误区" class="headerlink" title="初学者写博客的常见误区"></a>初学者写博客的常见误区</h1><h2 id="初学者写博客没有技术含量怎么办？"><a href="#初学者写博客没有技术含量怎么办？" class="headerlink" title="初学者写博客没有技术含量怎么办？"></a>初学者写博客没有技术含量怎么办？</h2><ul>
+<li>每个大牛都是初学者，没有人生来就会走路，都是慢慢摸索学习才会的，不是牛人才写博客，而是你写着写着就变牛了</li>
+<li>不要担心写的东西很低端，首先要敢于尝试，其次，只要写的东西有价值，它就有存在的意义，可能对你而言它记录你的学习过程帮你提高学习效率，可能对他人而言，你的踩坑记录别人在学习的时候也遇到过，这时候你的博客对别人就有了价值，别人Google一下的结果可能就是你写的博客</li>
+<li>因此，博客不需要高深莫测，不需要故弄玄虚，而是实实在在的，简单的记录</li>
+</ul>
+<h2 id="初学者写博客会不会被喷？"><a href="#初学者写博客会不会被喷？" class="headerlink" title="初学者写博客会不会被喷？"></a>初学者写博客会不会被喷？</h2><p>首先，保持自己写的东西是客观公正<br>其次，可以复现，能够为他人带来一定的参考价值</p>
+<h2 id="初学者写博客效率低怎么办？"><a href="#初学者写博客效率低怎么办？" class="headerlink" title="初学者写博客效率低怎么办？"></a>初学者写博客效率低怎么办？</h2><p>刚开始效率很低正常，你可能写博客啊整理笔记，学习轨迹然后在撰写成文发到自己的平台上去所花的时间比你本身学这项技术的时间都更多，但是没关系，多写常写，慢慢的你会越来越习惯这样一种方式，也会越来越快，越来越熟练</p>
+<h1 id="关于平台"><a href="#关于平台" class="headerlink" title="关于平台"></a>关于平台</h1><ul>
+<li>自己搭建，部署至github或gittee，框架自选Hexo,Hugo，WordPress等等</li>
+<li>其他技术平台<br>国内：CSDN，简书，博客园，segmentfault，掘金等<br>国外：github，Stack Overflow等</li>
+</ul>
+
+    </div>
+
+    
+    
+    
+        
+
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>特产型葱酱
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="http://yoursite.com/2020/02/18/why%20blog/" title="Why blog">http://yoursite.com/2020/02/18/why blog/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+        
+
+  <div class="followme">
+    <p>欢迎关注我的其它发布渠道</p>
+
+    <div class="social-list">
+
+            <div class="social-item">
+              <a target="_blank" class="social-link" href="/atom.xml">
+                <span class="icon">
+                  <i class="fa fa-rss"></i>
+                </span>
+
+                <span class="label">RSS</span>
+              </a>
+            </div>
+    </div>
+  </div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/hexo/" rel="tag"># hexo</a>
+              <a href="/tags/notes/" rel="tag"># notes</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item"></div>
+      <div class="post-nav-item">
+    <a href="/2020/02/20/hexo%20blog/" rel="next" title="使用Hexo＋Github搭建个人博客">
+      使用Hexo＋Github搭建个人博客 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+  </div>
+
+
+          </div>
+          
+    <div class="comments" id="valine-comments"></div>
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let activeClass = CONFIG.comments.activeClass;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#为什么写博客"><span class="nav-number">1.</span> <span class="nav-text">为什么写博客</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#写什么？"><span class="nav-number">2.</span> <span class="nav-text">写什么？</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#等级"><span class="nav-number">2.1.</span> <span class="nav-text">等级</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#入门级"><span class="nav-number">2.1.1.</span> <span class="nav-text">入门级</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#实战类"><span class="nav-number">2.1.2.</span> <span class="nav-text">实战类</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#大牛级"><span class="nav-number">2.1.3.</span> <span class="nav-text">大牛级</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#注意事项"><span class="nav-number">2.2.</span> <span class="nav-text">注意事项</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#如何写？"><span class="nav-number">3.</span> <span class="nav-text">如何写？</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#初学者写博客的常见误区"><span class="nav-number">4.</span> <span class="nav-text">初学者写博客的常见误区</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#初学者写博客没有技术含量怎么办？"><span class="nav-number">4.1.</span> <span class="nav-text">初学者写博客没有技术含量怎么办？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#初学者写博客会不会被喷？"><span class="nav-number">4.2.</span> <span class="nav-text">初学者写博客会不会被喷？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#初学者写博客效率低怎么办？"><span class="nav-number">4.3.</span> <span class="nav-text">初学者写博客效率低怎么办？</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#关于平台"><span class="nav-number">5.</span> <span class="nav-text">关于平台</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="特产型葱酱"
+      src="/assets/head.jpg">
+  <p class="site-author-name" itemprop="name">特产型葱酱</p>
+  <div class="site-description" itemprop="description">记录生活</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">6</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="//weibo.com/jackie2653" target="_blank" rel="noopener" title="Weibo → &#x2F;&#x2F;weibo.com&#x2F;jackie2653"><i class="fa fa-fw fa-weibo"></i>Weibo</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://space.bilibili.com/176957816?spm_id_from=333.851.b_696e7465726e6174696f6e616c486561646572.10" title="Bilibili → https:&#x2F;&#x2F;space.bilibili.com&#x2F;176957816?spm_id_from&#x3D;333.851.b_696e7465726e6174696f6e616c486561646572.10" rel="noopener" target="_blank"><i class="fa fa-fw fa-youtube"></i>Bilibili</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/342985346@qq.com" title="E-Mail → 342985346@qq.com"><i class="fa fa-fw fa-envelop"></i>E-Mail</a>
+      </span>
+  </div>
+  <div class="cc-license motion-element" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+
+
+      
+   <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas> 
+   <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
+   <script type="text/javascript" src="/js/src/fireworks.js"></script>
+
+ 
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+<div class="copyright">
+  
+  &copy; 2020 – 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">特产型葱酱</span>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动
+  </div>
+
+
+
+
+<div class="runtime">
+<span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
+<script>
+    var now = new Date(); 
+    function createtime() { 
+        var grt= new Date("02/15/2020 18:49:49");//此处修改你的建站时间或者网站上线时间 
+        now.setTime(now.getTime()+250); 
+        days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days); 
+        hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours); 
+        if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum); 
+        mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;} 
+        seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum); 
+        snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;} 
+        document.getElementById("timeDate").innerHTML = "本站已在风雨飘摇中度过了 "+dnum+" 天 "; 
+        document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒"; 
+    } 
+setInterval("createtime()",250);
+</script>
+</div>
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script size="300" alpha="0.6" zIndex="-1" src="/lib/canvas-ribbon/canvas-ribbon.js"></script>
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<script>
+NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
+  NexT.utils.getScript('//unpkg.com/valine/dist/Valine.min.js', () => {
+    var GUEST = ['nick', 'mail', 'link'];
+    var guest = 'nick,mail';
+    guest = guest.split(',').filter(item => {
+      return GUEST.includes(item);
+    });
+    new Valine({
+      el         : '#valine-comments',
+      verify     : false,
+      notify     : false,
+      appId      : 'kYoQA2NUAfsnU5fCvoYT4O1N-gzGzoHsz',
+      appKey     : 'C812lwPYbwNyCAsLOTyf0ifK',
+      placeholder: "Just go go",
+      avatar     : 'mm',
+      meta       : guest,
+      pageSize   : '10' || 10,
+      visitor    : false,
+      lang       : '' || 'zh-cn',
+      path       : location.pathname,
+      recordIP   : false,
+      serverURLs : ''
+    });
+  }, window.Valine);
+});
+</script>
+
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginModelPath":"assets/","model":{"scale":1,"hHeadPos":0.5,"vHeadPos":0.618,"jsonPath":"/live2dw/assets/assets/shizuku.model.json"},"display":{"superSample":2,"width":150,"height":300,"position":"right","hOffset":0,"vOffset":-20},"mobile":{"show":true,"scale":0.5},"react":{"opacityDefault":0.7,"opacityOnHover":0.2},"log":false,"pluginJsPath":"lib/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
+</html>

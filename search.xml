@@ -3,10 +3,7 @@
   <entry>
     <title>轻与重</title>
     <url>/2021/04/10/%E3%80%8A%E4%B8%8D%E8%83%BD%E6%89%BF%E5%8F%97%E7%9A%84%E7%94%9F%E5%91%BD%E4%B9%8B%E8%BD%BB%E3%80%8B/</url>
-    <content><![CDATA[<p>《不能承受的生命之轻》摘录&amp;笔记</p>
-<a id="more"></a>
-
-<h1 id="摘录"><a href="#摘录" class="headerlink" title="摘录"></a>摘录</h1><p>es muss sein?</p>
+    <content><![CDATA[<h1 id="摘录"><a href="#摘录" class="headerlink" title="摘录"></a>摘录</h1><p>es muss sein?</p>
 <p>es muss sein!</p>
 <p>es muss sein.</p>
 <p>人永远都无法知道自己该要什么，因为人只能活一次，既不能拿它跟前世相比，也不能在来生加以修正。</p>
@@ -33,7 +30,7 @@
 <p>追逐众多女性的男人很容易被归为两类。一类人在所有女人身上寻找他们自己的梦，他们对于女性的主观意念。另一类人则被欲念所驱使，想占有客观女性世界的无尽的多样性。</p>
 <p>前者的迷恋是浪漫型的迷恋：他们在女人身上寻找的是他们自己，是他们的理想。他们总是不断地失望，因为，正如我们所知，理想从来都是不可能找到的。失望把他们从一个女人推向另一个女人，赋予他们的善变一种感伤的藉口，因此，许多多愁善感的女人为他们顽强的纠缠所感动。</p>
 <p>后者的迷恋是放荡型的迷恋，女人在其中看不到丝毫感人之处：由于男人没有在女性身上寄托一个主观的理想，他们对所有女人都感兴趣，没有谁会令他们失望。的确，就是这从不失望本身带有某种可耻的成分。在世人眼中，放浪之徒的迷恋是不可宽恕的（因为从不为失望而救赎）</p>
-<p>  我们全都需要有人注视我们。根据我们生活所追求的不同的目光类型，可以将我们分成四类。</p>
+<p>我们全都需要有人注视我们。根据我们生活所追求的不同的目光类型，可以将我们分成四类。</p>
 <p>  第一类追求那种被无数不知名的人注视的目光，换句话说，就是公众的目光。德国歌手和美国女明星属此列，那位下巴又长又尖的记者亦如此。……  </p>
 <p>  第二类是那种离开了众多双熟悉的眼睛注视的目光就活不就下去的人。那些不知疲倦地在组织鸡尾酒会和宴会的，就属此类。……  </p>
 <p>  接下来是第三类，这类人必须活在所爱之人的目光下，他们的境况与第一类人同样危险。一旦所爱的人闭上眼睛，其生命殿堂也将陷入黑暗之中。特蕾莎和托马斯应归于此类。…… </p>
@@ -48,8 +45,6 @@
 <p>“你用一种让人宽心的声音说：‘瞧，你应该休息。你应该休一个月假。’但听起来却不那么真实。</p>
 <p>“我知道你说到假期意味着什么！我知道你想要整整一个月不见我，因为你要和别的女人在一起。你走了，我又掉进了坟墓的底层，我知道为了不要错过你，我还是会一个月不睡，一个月后你回来的时候，我会变得更丑，你会更加失望。”</p>
 <p>他再没有听过比这更令人心碎的话了。他把特蕾莎紧紧地抱在怀里，感到她的身体在颤抖，他觉得自己再没有力量来承担对她的爱了。</p>
-<h1 id="读后感"><a href="#读后感" class="headerlink" title="读后感"></a>读后感</h1><p>就像读它时我杂糅的内心一样，米兰昆德拉在这本书中杂糅了许多东西，轻与重，灵与肉，爱与性，反抗与妥协，存在与消失，荒谬与意义，爱情的，婚姻的，政治的，历史的，最终都指向一个命题——人的生命，人类的生命。</p>
-<p>人生到底有何意义？人的一生，轻飘飘的来，轻飘飘的走，如鸿毛一般，不留痕迹，而这个过程却是沉重的，我们要承受很多痛苦，</p>
 ]]></content>
       <categories>
         <category>Life</category>
@@ -75,21 +70,21 @@
       </categories>
   </entry>
   <entry>
-    <title>test</title>
+    <title>hexo写作语法</title>
     <url>/2020/03/04/test/</url>
     <content><![CDATA[<figure class="highlight diff"><figcaption><span>文件夹位置</span><a href="https://github.com" target="_blank" rel="noopener">Github</a></figcaption><table><tr><td class="code"><pre><span class="line"><span class="deletion">- hexo init</span></span><br><span class="line"><span class="addition">+ hexo s</span></span><br></pre></td></tr></table></figure>
 
 
 
 <p><span id="inline-blue">站点配置文件</span>,<br><span id="inline-purple">主题配置文件</span></p>
-<blockquote class="blockquote-center">
+<h1 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h1><blockquote class="blockquote-center">
             <p>人生乃是一面镜子，<br>从镜子里认识自己，<br>我要称之为头等大事，<br>也只是我们追求的目的！</p>
 
           </blockquote>
 
 
 
-<div class="tabs" id="选项卡"><ul class="nav-tabs"><li class="tab"><a href="#选项卡-1">选项卡 1</a></li><li class="tab active"><a href="#选项卡-2">选项卡 2</a></li><li class="tab"><a href="#选项卡-3">选项卡 3</a></li></ul><div class="tab-content"><div class="tab-pane" id="选项卡-1"><p><strong>这是选项卡 1</strong> 呵呵哈哈哈哈哈哈哈哈呵呵哈哈哈哈哈哈哈哈呵呵哈哈哈哈哈哈哈哈呵呵哈哈哈哈哈哈哈哈呵呵哈哈哈哈哈哈哈哈呵呵哈哈哈哈哈哈哈哈……</p></div><div class="tab-pane active" id="选项卡-2"><p><strong>这是选项卡 2</strong></p></div><div class="tab-pane" id="选项卡-3"><p><strong>这是选项卡 3</strong> 哇，你找到我了！φ(≧ω≦*)♪～</p></div></div></div>
+<h1 id="选项卡"><a href="#选项卡" class="headerlink" title="选项卡"></a>选项卡</h1><div class="tabs" id="选项卡"><ul class="nav-tabs"><li class="tab"><a href="#选项卡-1">选项卡 1</a></li><li class="tab active"><a href="#选项卡-2">选项卡 2</a></li><li class="tab"><a href="#选项卡-3">选项卡 3</a></li></ul><div class="tab-content"><div class="tab-pane" id="选项卡-1"><p><strong>这是选项卡 1</strong> 呵呵哈哈哈哈哈哈哈哈呵呵哈哈哈哈哈哈哈哈呵呵哈哈哈哈哈哈哈哈呵呵哈哈哈哈哈哈哈哈呵呵哈哈哈哈哈哈哈哈呵呵哈哈哈哈哈哈哈哈……</p></div><div class="tab-pane active" id="选项卡-2"><p><strong>这是选项卡 2</strong></p></div><div class="tab-pane" id="选项卡-3"><p><strong>这是选项卡 3</strong> 哇，你找到我了！φ(≧ω≦*)♪～</p></div></div></div>
 
 
 
@@ -151,9 +146,7 @@
 
 
 
-
-
-<div class="note default">
+<h1 id="在note中放入无序、有序列表"><a href="#在note中放入无序、有序列表" class="headerlink" title="在note中放入无序、有序列表"></a>在note中放入无序、有序列表</h1><div class="note default">
             <p>在note中放入无序、有序列表</p><ul><li>ul</li><li>ul</li><li>ul</li></ul><ol><li>ol</li><li>ol</li><li>ol</li></ol>
           </div>
 
@@ -161,9 +154,7 @@
 
 
 
-
-
-<div class="note default">
+<h1 id="note中的表格"><a href="#note中的表格" class="headerlink" title="note中的表格"></a>note中的表格</h1><div class="note default">
             <table><thead><tr><th>1</th><th>2</th></tr></thead><tbody><tr><td>3</td><td>4</td></tr><tr><td>5</td><td>6</td></tr><tr><td>7</td><td>8</td></tr></tbody></table>
           </div>
 
